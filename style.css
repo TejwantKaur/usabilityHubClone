@@ -1,0 +1,334 @@
+/* 
+font-family: 'Bree Serif', serif;
+font-family: 'Itim', cursive;
+font-family: 'Merienda', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Potta One', cursive;
+font-family: 'Varela Round', sans-serif;
+*/
+
+:root{
+    --fnt-sm : 0.8rem;
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1rem;
+    margin: 0; padding: 0;
+    cursor: default;
+}
+body{
+    /* overflow: hidden; */
+}
+.light{
+    background-color: aliceblue;
+    color: black;
+}
+.primary{
+    background-color: dodgerblue;
+    color: black;
+    color: aliceblue;
+}
+.trans{
+    background-color: transparent;
+}
+.btn{
+    border: none;
+    padding: 0.5rem 0.75rem;
+    border-radius: 10px;
+    font-size: 0.88rem;
+    opacity: 0.9;
+    transition: 0.2s;
+}
+.btn:hover{
+    opacity: 1;
+    transform: scale(1.07);
+    box-shadow: 0.5px 0.5px 3px black;
+}
+.btn-outline{
+    border: 1.5px solid black;
+}
+a{
+    font-size: var(--fnt-sm);
+    text-decoration: none;
+    color: rgba(5, 39, 119, 0.737);
+}
+.hover-out{
+    transition: 0.1s;
+    width: fit-content;
+}
+.hover-out:hover{
+    color: blue;
+    transform: scale(1.07);
+}
+a:hover{
+    color: blue
+}
+
+.interview{
+    background-color: rgb(192, 216, 255);
+    line-height: 2.7rem;
+}
+.interview h3{
+    text-align: center;
+    font-size: var(--fnt-sm);
+    font-weight: 100;
+}
+
+.nav{
+    /* background-color: pink; */
+    margin-top: 1rem;
+    height: 3.7rem;
+    display: flex;
+}
+.nav-head{
+    width: 40%;
+    /* background-color: rgb(131, 131, 228); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../usabilityHub/assets/back-img.png");
+}
+.nav-head-data{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-head-data img{
+    height: 30px;
+    width: 160px;
+}
+.nav-head-bc{
+    background-color: aquamarine;
+    background-image: url("../assets/back-img.png");
+    background-size: cover;
+    padding: 0.3rem 1.25rem;
+}
+.nav-options{
+    /* background-color: cornflowerblue; */
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-options-lists{
+    /* background-color: green; */
+    width: 70%;
+    margin-right: 1rem;
+}
+.nav-options-lists ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-options-lists ul li {
+    list-style-type: none;
+    display: flex;
+    margin-left: 0.75rem;
+}
+.nav-options-lists ul li i{
+    align-self: flex-end;
+    margin-left: 0.15rem;
+    font-size: 0.70rem;
+    opacity: 0.5;
+}
+.nav-options-lists ul li a{
+    align-self: center;
+    font-size: 0.9rem;
+}
+.nav-options-btns{
+    width: 30%;
+    /* background-color: rgb(10, 206, 220); */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section{
+    /* background-color: blue; */
+    height: 450px;
+    display: flex;
+    margin-bottom: 3rem;
+}
+.main-img{
+    /* background-color: rgb(250, 192, 192); */
+    width: 52%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-img-design{
+    background-color: aquamarine;
+    height: 80%;
+    /* width: 90%; */
+    
+}
+.main-img-design img{
+    height: 100%;
+}
+
+.big-head{
+    font-size: 3rem;
+}
+.mid-head{
+    font-size: 2rem;
+}
+.opaque{
+    opacity: 0.55;
+}
+
+.main-content{
+    /* background-color: lightcoral; */
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+.main-content h1{
+    margin: 5rem 0 2rem 2.7rem;
+}
+.main-content h3{
+    font-weight: 100;
+    margin: 0 10rem 3rem 2.7rem;
+}
+.main-content button{
+    margin-left: 2.7rem;
+    width: 7rem;
+}
+
+.center{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-container{
+    flex-direction: column;
+}
+.page-container-text{
+    align-self: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;   
+}
+.page-container-text p{
+    font-size: 1.3rem;
+}
+.logo-cont{
+    width: 100%;
+}
+.logos{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 9rem;
+}
+.logos img{
+    height: 40px;
+}
+.main-cont h1{
+    color: rgba(15, 15, 136, 0.893);
+
+}
+.main-cont button{
+    color: rgba(15, 15, 136, 0.893);
+    border-color: rgba(15, 15, 136, 0.893);
+    margin: 1rem;
+}
+.main-cont button:hover{
+    color: blue;
+    border-color: blue;
+}
+
+.cards{
+    margin: 1rem auto 5rem;
+    width: 78%;
+    flex-wrap: wrap;
+}
+.card{
+    flex-direction: column;
+    width: 33%;
+    margin-bottom: 3rem;
+}
+.card img{
+    height: 40px;
+}
+.card h1{
+    margin: 0.5rem;
+    color: rgba(15, 15, 136, 0.893);
+}
+.card h2{
+    color: rgba(15, 15, 136, 0.893);
+    width: 80%;
+    text-align: center;
+    opacity: 0.65;
+    font-weight: 200;
+    margin-bottom: 1rem;
+}
+.card button{
+    color: rgba(15, 15, 136, 0.893);
+    border-color: rgba(15, 15, 136, 0.893);
+}
+
+.design-img{
+    width: 55%;
+}
+.design-img img{
+    width: 90%;
+    padding: 3rem;
+}
+.content{
+    width: 45%;
+}
+.content .para-1{
+    color: rgba(15, 15, 136, 0.893);
+    line-height: 1.7rem;
+    margin-bottom: 0.5rem;
+}
+.content .para-2{
+    color: rgba(15, 15, 136, 0.893);
+    line-height: 2.7rem;
+    margin-bottom: 0.75rem;
+    
+}
+.content .para-3{
+    color: rgba(15, 15, 136, 0.893);
+    line-height: 1.7rem;
+    width: 85%;
+    font-weight: 100;
+}
+.content img{
+    margin: 1.75rem 0;
+    height: 1.75rem;
+
+}
+.content .para-4{
+    color: rgba(15, 15, 136, 0.893);
+    line-height: 1.7rem;
+    width: 65%;
+
+}
+.name{
+    /* background-color: cornflowerblue; */
+    display: flex;
+    align-items: center;
+}
+.name img{
+    height: 3.5rem;
+    margin: 2rem 1rem 2rem 0;
+}
+.name-1{
+    color: rgba(15, 15, 136, 0.893);
+    line-height: 1.7rem;
+}
+.name-2{
+    color: rgba(15, 15, 136, 0.893);
+    line-height: 1.7rem;
+    font-size: 0.75rem;
+    font-weight: 100;
+}
+.marketers .content{
+    margin-left: 3rem;
+}
