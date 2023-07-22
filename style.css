@@ -100,7 +100,7 @@ a:hover{
     width: 160px;
 }
 .nav-head-bc{
-    background-color: aquamarine;
+/*     background-color: aquamarine; */
     background-image: url("../assets/back-img.png");
     background-size: cover;
     padding: 0.3rem 1.25rem;
